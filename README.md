@@ -42,3 +42,14 @@ The parameter `period` can be one of the following strings:
 - `yesterday`: outputs the number of yesterdays visitors
 - `week`: outputs the number of all visitors within the last seven days
 - `all`: outputs the number of all visitors anytime
+
+### Changelog
+
+#### 1.1
+
+- Changed plugin folder name from "src" to "visitorcounter"
+- Added English translation
+
+#### 1.0
+
+- Initial release with simple Dashboard Widget and template variables
