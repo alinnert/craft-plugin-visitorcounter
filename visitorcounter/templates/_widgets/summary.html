@@ -2,20 +2,28 @@
 	<table class="data">
 		<tbody>
 			<tr>
-				<td><b>Heute</b></td>
-				<td style="text-align: right;">{{ craft.visitorCounter.getVisitorData('today') }}</td>
+				<td><b>{{ "Heute" | t }}</b></td>
+				<td style="text-align: right;">
+					{{- craft.visitorCounter.getVisitorData('today') -}}
+				</td>
 			</tr>
 			<tr>
-				<td><b>Gestern</b></td>
-				<td style="text-align: right;">{{ craft.visitorCounter.getVisitorData('yesterday') }}</td>
+				<td><b>{{ "Gestern" | t }}</b></td>
+				<td style="text-align: right;">
+					{{- craft.visitorCounter.getVisitorData('yesterday') -}}
+				</td>
 			</tr>
 			<tr>
-				<td><b>Diese Woche</b></td>
-				<td style="text-align: right;">{{ craft.visitorCounter.getVisitorData('week') }}</td>
+				<td><b>{{ "Diese Woche" | t }}</b></td>
+				<td style="text-align: right;">
+					{{- craft.visitorCounter.getVisitorData('week') -}}
+				</td>
 			</tr>
 			<tr style="color: #da5a47;">
-				<td style="border-top: 2px solid #e3e5e8;"><b>Gesamt</b></td>
-				<td style="border-top: 2px solid #e3e5e8; text-align: right;">{{ craft.visitorCounter.getVisitorData('all') }}</td>
+				<td style="border-top: 2px solid #e3e5e8;"><b>{{ "Gesamt" | t }}</b></td>
+				<td style="border-top: 2px solid #e3e5e8; text-align: right;">
+					{{- craft.visitorCounter.getVisitorData('all') -}}
+				</td>
 			</tr>
 		</tbody>
 	</table>
