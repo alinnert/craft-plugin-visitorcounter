@@ -36,12 +36,16 @@ Add the following variable to output the counter statistics:
 
 	{{ craft.visitorCounter.getVisitorData( <period> ) }}
 
-The parameter `period` can be one of the following strings:
+The parameter `period` can be one of the following **strings**:
 
 - `today`: outputs the number of todays visitors (will be used, if no parameter is passed)
 - `yesterday`: outputs the number of yesterdays visitors
 - `week`: outputs the number of all visitors within the last seven days
 - `all`: outputs the number of all visitors anytime
+
+Example:
+
+	{{ craft.visitorCounter.getVisitorData('today') }}
 
 ## Changelog
 
