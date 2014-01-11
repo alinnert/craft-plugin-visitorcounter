@@ -45,6 +45,11 @@ The parameter `period` can be one of the following strings:
 
 ## Changelog
 
+### 1.2 (2014-01-11)
+
+- Added more Strings (hopefully all) to translation file
+- Updated the plugin version this time
+
 ### 1.1 (2014-01-09)
 
 - Changed plugin folder name from "src" to "visitorcounter"
