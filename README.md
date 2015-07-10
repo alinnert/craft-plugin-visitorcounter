@@ -1,6 +1,6 @@
 # Visitor counter (for Craft)
 
-This is a plugin for the CMS [Craft](http://buildwithcraft.com). It's a very basic visitor counter. It provides a dashboard widget and variables to display the statistics anywhere.
+This is a plugin for [Craft CMS](http://buildwithcraft.com), currently version 1 and 2 only. It's a very basic visitor counter. It provides a dashboard widget and variables to display the statistics anywhere.
 Currently the widget is German only. I will look into translating it into English soon.
 
 ## How does it work?
